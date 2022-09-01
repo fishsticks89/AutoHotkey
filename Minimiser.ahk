@@ -3,6 +3,10 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+Home::
+Send, Down
+return
+
 DetectHiddenWindows, On
 
 Groupadd, noMin, Renderer ‎- Remote Desktop
@@ -48,3 +52,4 @@ MButton::
 	;MsgBox, %title%
     PostMessage, 0x0112, 0xF120,,, %title%
 return
+

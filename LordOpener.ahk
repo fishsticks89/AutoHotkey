@@ -3,34 +3,25 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ::hube::
-Run, https://hub.hw.com/courses/3316570
+Run, https://hub.hw.com/courses/3375803
 return
-::hubb::
+::hubc::
 Run, https://hub.hw.com/courses/3316712
 return
 ::hubp::
-Run, https://hub.hw.com/courses/3316819
+Run, https://hub.hw.com/courses/3375964
 return
 ::hubh::
-Run, https://hub.hw.com/courses/3316850
+Run, https://hub.hw.com/courses/3376081
 return
-::hubw::
-Run, https://hub.hw.com/courses/3316850
-return
-::hubm::
+::hubm:: ; s
 Run, https://hub.hw.com/courses/3316730
 return
 ::hubl::
-Run, https://hub.hw.com/courses/3316581
+Run, https://hub.hw.com/courses/3375870
 return
-::hubp::
-Run, https://hub.hw.com/courses/3316819
-return
-::hubc::
-Run, https://hub.hw.com/courses/3316460
-return
-::hubcm::
-Run, https://hub.hw.com/courses/3316942
+::hubch::
+Run, https://hub.hw.com/courses/3375652/
 return
 ::openpd::
 Run, https://app.peardeck.com/join
@@ -40,12 +31,6 @@ Run, https://mail.hw.com/owa/#path=/mail
 return
 ::openh::
 Run, https://hub.hw.com/
-return
-::schede::
-Run, C:\Users\ebarr_2y3vyla\Desktop\.‎‎Misc\Notes\schedule.pdf
-return
-::openmine::
-Run, C:\Program Files (x86)\Minecraft Launcher\Minecraft Launcher.lnk
 return
 ::openc::
 Run, https://calendar.google.com/
