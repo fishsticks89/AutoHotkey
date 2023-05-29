@@ -10,6 +10,12 @@ While 0 = 0
     } Else {
         Sleep, 100
     }
+    If WinActive("ahk_exe opera.exe")
+    {
+    WinSetTitle, A, , Bean
+    } Else {
+        Sleep, 100
+    }
 
 Sleep, 3
 }

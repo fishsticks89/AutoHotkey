@@ -2,11 +2,13 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+#SingleInstance Force
+
 ::hube::
 Run, https://hub.hw.com/courses/3375803
 return
 ::hubc::
-Run, https://hub.hw.com/courses/3316712
+Run, https://hub.hw.com/courses/3375910
 return
 ::hubp::
 Run, https://hub.hw.com/courses/3375964
@@ -18,7 +20,7 @@ return
 Run, https://hub.hw.com/courses/3375984
 return
 ::hubl::
-Run, https://hub.hw.com/courses/3375870
+Run, https://hub.hw.com/courses/3375865
 return
 ::hubch::
 Run, https://hub.hw.com/courses/3375652/
