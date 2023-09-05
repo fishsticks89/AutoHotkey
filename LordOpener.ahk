@@ -3,36 +3,47 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance Force
-
-::hube::
-Run, https://hub.hw.com/courses/3375803
-return
-::hubc::
-Run, https://hub.hw.com/courses/3375910
+::hubb::
+Run, https://hub.hw.com/courses/3316712
 return
 ::hubp::
-Run, https://hub.hw.com/courses/3375964
+Run, https://hub.hw.com/courses/3316938
 return
 ::hubh::
-Run, https://hub.hw.com/courses/3376081
+Run, https://hub.hw.com/courses/3316850
 return
-::hubm:: ; s
-Run, https://hub.hw.com/courses/3375984
+::hubw::
+Run, https://hub.hw.com/courses/3316850
+return
+::hubm::
+Run, https://hub.hw.com/courses/3316730
 return
 ::hubl::
-Run, https://hub.hw.com/courses/3375865
+Run, https://hub.hw.com/courses/3316581
 return
-::hubch::
-Run, https://hub.hw.com/courses/3375652/
-return
-::openpd::
-Run, https://app.peardeck.com/join
+::hubcm::
+Run, https://hub.hw.com/courses/3316942
 return
 ::openm::
 Run, https://mail.hw.com/owa/#path=/mail
 return
+::openy::
+Run, https://www.youtube.com/
+return
 ::openh::
 Run, https://hub.hw.com/
+return
+::ssp::
+Run, C:\Users\ebarr_2y3vyla\Music\Sarah Stuff.zip
+return
+::opend::
+Run, https://discord.com/app
+return
+::opena::
+Run, steam://rungameid/945360
+return
+::openmine::
+Run, C:\Program Files (x86)\Minecraft Launcher\Minecraft Launcher.lnk
 return
 ::openc::
 Run, https://calendar.google.com/
@@ -45,4 +56,9 @@ Run, https://www.hw.com/students/Daily-Life/My-Schedule-Events
 return
 ::cwheel::
 Run, https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2011/7/18/0/HGTV_Color-Wheel-Full_s4x3.jpg.rend.hgtvcom.616.462.suffix/1400967008479.jpeg
+return
+^#!l::
+Run, C:\Users\ebarr_2y3vyla\Desktop\AutoHotkey\LordOpener.ahk
+Sleep, 200
+Send, {Enter}
 return
