@@ -25,7 +25,7 @@ return
 
 MyTimer:
     ; Input your code here (but without loop and sleep)
-    Sites := ["Hacker News"]
+    Sites := ["Hacker News", "[Ss]velte", "[Ss]olid[Jj][Ss]", "The Verge", "[Aa]utohotkey", "[Bb]log", "Discord"]
 
     WinGetTitle, currWinTit, A
 
@@ -37,10 +37,9 @@ MyTimer:
         }
     }
 
-    If (currWinTit != startWindowTitle) {
+    If (isProcrast) {
         currNum -= 1 / (20 * 60) ; 20 min procrast
-    }
-    If (currWinTit = startWindowTitle) {
+    } Else {
         currNum += 1 / (20 * 60) ; 20 min noprocrast
     }
     if (currNum > 1) {
