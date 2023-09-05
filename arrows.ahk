@@ -3,10 +3,20 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance Force
-GroupAdd, nopaste, ahk_exe Inventor.exe
-GroupAdd, nopaste, ahk_exe Zoom.ahk_exe
 
-#IfWinNotActive ahk_group nopaste
-!v::
-SendRaw, %clipboard%
-return
+#persistent
+SetCapsLockState, AlwaysOff
+
+#If GetKeyState("CapsLock", "P")
+a::Left
+s::Down
+w::Up
+d::Right
+Enter::Ctrl
+#If
+
+*CapsLock::
+KeyWait, CapsLock
+IF A_ThisHotkey = *CapsLock
+    Send, {Escape}
+Return
