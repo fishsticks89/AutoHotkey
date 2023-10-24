@@ -3,26 +3,26 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance Force
-::hubb::
-Run, https://hub.hw.com/courses/3316712
+::hubm::
+Run, https://hub.hw.com/courses/3441602
+return
+::hube::
+Run, https://hub.hw.com/courses/3441464/modules
 return
 ::hubp::
-Run, https://hub.hw.com/courses/3316938
+Run, https://hub.hw.com/courses/3441487
 return
 ::hubh::
-Run, https://hub.hw.com/courses/3316850
+Run, https://hub.hw.com/courses/3441656
 return
 ::hubw::
-Run, https://hub.hw.com/courses/3316850
+Run, https://hub.hw.com/courses/3441577
 return
-::hubm::
-Run, https://hub.hw.com/courses/3316730
-return
-::hubl::
-Run, https://hub.hw.com/courses/3316581
+::hubc::
+Run, https://hub.hw.com/courses/3441657
 return
 ::hubcm::
-Run, https://hub.hw.com/courses/3316942
+Run, https://hub.hw.com/courses/3441697
 return
 ::openm::
 Run, https://mail.hw.com/owa/#path=/mail
@@ -32,9 +32,6 @@ Run, https://www.youtube.com/
 return
 ::openh::
 Run, https://hub.hw.com/
-return
-::ssp::
-Run, C:\Users\ebarr_2y3vyla\Music\Sarah Stuff.zip
 return
 ::opend::
 Run, https://discord.com/app
